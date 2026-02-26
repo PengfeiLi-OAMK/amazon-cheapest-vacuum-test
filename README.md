@@ -35,3 +35,13 @@ Open generated reports:
 - Custom Python validator (`AmazonValidationLib.py`) converts price strings to numeric values and performs ascending-order checks.
 - Search-result price validation excludes `Sponsored` cards and items without add-to-cart availability to improve stability.
 - Locators prioritize resilient selectors (semantic IDs, stable attributes, constrained XPath/CSS) instead of volatile dynamic framework IDs.
+
+##  Test Reporting Screenshots
+
+After execution, Robot Framework generates detailed HTML reports. Here is a preview of the results:
+### 1. High-Level Summary (Report.html)
+![Test Report Summary](https://github.com/user-attachments/assets/a57085f0-9030-42ea-b87b-2bdba04d0f34)
+
+### 2. Detailed Execution Logs (Log.html)
+![Detailed Logs](https://github.com/user-attachments/assets/e0d07cc7-c362-46b5-a1ee-8fc4fe8edfd0)
+
